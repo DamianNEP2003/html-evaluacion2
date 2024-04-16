@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tienda</title>
+    <!-- estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Cabecera de la página con la barra de navegación -->
+    <header>
+        <nav>
+            <!-- Lista desordenada para los elementos de navegación -->
+            <ul>
+                <!-- Elementos de la lista con enlaces a secciones de la página -->
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#info">Ubicaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- banner principal -->
+    <section id="banner">
+        <img src="img/banner.jpg" alt="Banner Principal">
+    </section>
+
+    <!-- Sección de categorías de la tienda -->
+    <section id="tienda">
+        <h1>Tienda:</h1>
+        <!-- Contenedor para las categorías -->
+        <div class="categorias">
+            <!-- Cada categoría con su imagen y descripción -->
+            <div><img src="img/hombre.jpg" alt="Hombre"><p>Hombre</p></div>
+            <div><img src="img/mujer.jpg" alt="Mujer"><p>Mujer</p></div>
+            <div><img src="img/infantil.jpg" alt="Infantil"><p>Infantil</p></div>
+            <div><img src="img/hogar.jpg" alt="Hogar"><p>Hogar</p></div>
+        </div>
+    </section>
+
+    <!-- Sección de ubicación con mapa integrado -->
+    <section id="ubicaciones">
+        <h1>Ubicación de las tiendas:</h1>
+        <!-- Mapa de Google Maps, funcionaba en un principio y luego de testearlo dejo de aparecer... -->
+        <iframe src="https://maps.google.com/maps?q=TuUbicacion&amp;output=embed" frameborder="0"></iframe>
+    </section>
+
+    <!-- información adicional -->
+    <footer>
+        <p>Horarios: 9:00 a 21:00</p>
+        <p>Info estacionamiento: Disponible en tienda</p>
+        <p>Contacto: info@tienda.com</p>
+        <p>&copy; 2024 Derechos Reservados</p>
+    </footer>
+</body>
+</html>
